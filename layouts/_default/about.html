@@ -185,7 +185,7 @@ footer a:not(.nav-link) {
     <div class="section-sm pb-0">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
-          <h3 class="text-dark font-weight-700 mb-5">{{ .title }}</h3>
+          <h3 class="text-dark font-weight-700 mb-5"><i class="las la-spinner mx-2"></i>{{ .title }}</h3>
         </div>
         {{ range .item }}
           <div class="col-lg-4 col-md-6 mt-4 text-center">
@@ -212,7 +212,7 @@ footer a:not(.nav-link) {
         {{ with .Params.education }}
           <div class="col-md-6">
             <div class="col-12 text-center">
-              <h4 class="text-dark font-weight-700 mb-5">{{ .title }}</h4>
+              <h4 class="text-dark font-weight-700 mb-5"><i class="las la-university mx-2"></i>{{ .title }}</h4>
             </div>
             <div class="timeline">
               {{ range .item }}
@@ -232,7 +232,7 @@ footer a:not(.nav-link) {
         {{ with .Params.work_experience }}
           <div class="col-md-6">
             <div class="col-12 text-center">
-              <h4 class="text-dark font-weight-700 mb-5">{{ .title }}</h4>
+              <h4 class="text-dark font-weight-700 mb-5"><i class="las la-briefcase mx-2"></i>{{ .title }}</h4>
             </div>
             <div class="timeline">
               {{ range .item }}
